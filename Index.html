@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59b59f46a6d6f4430e4a821d9df39e12 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59b59f46a6d6f4430e4a821d9df39e12" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59b59f46a6d6f4430e4a821d9df39e12 = L.map(
+                "map_59b59f46a6d6f4430e4a821d9df39e12",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c5bc4c760aa40749387072a64175cda7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var marker_895cb9188b2503d8456358ffd42c9e6d = L.marker(
+                [48.8575, 2.2984],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_cf1c02fd5484129e4969e27fdb613479 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_895cb9188b2503d8456358ffd42c9e6d.setIcon(icon_cf1c02fd5484129e4969e27fdb613479);
+        
+    
+        var popup_1922ea76c80ffe208bcbb2e1bd62ac37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53e63037376fffdbe69acf9a687bd0b8 = $(`<div id="html_53e63037376fffdbe69acf9a687bd0b8" style="width: 100.0%; height: 100.0%;">Square Rapp</div>`)[0];
+            popup_1922ea76c80ffe208bcbb2e1bd62ac37.setContent(html_53e63037376fffdbe69acf9a687bd0b8);
+        
+
+        marker_895cb9188b2503d8456358ffd42c9e6d.bindPopup(popup_1922ea76c80ffe208bcbb2e1bd62ac37)
+        ;
+
+        
+    
+    
+            marker_895cb9188b2503d8456358ffd42c9e6d.bindTooltip(
+                `<div>
+                     Square Rapp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc0914e1e84ede614cc115b3753bfeae = L.marker(
+                [48.8579, 2.2992],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_8f4cbfca734f48bd97e165fca162717d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cc0914e1e84ede614cc115b3753bfeae.setIcon(icon_8f4cbfca734f48bd97e165fca162717d);
+        
+    
+        var popup_826f9500946828de8a357fbf81d43483 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a0b846dc55cdaf7fa8606ec0864bd8e = $(`<div id="html_6a0b846dc55cdaf7fa8606ec0864bd8e" style="width: 100.0%; height: 100.0%;">Immeuble Lavirotte (29 avenue Rapp)</div>`)[0];
+            popup_826f9500946828de8a357fbf81d43483.setContent(html_6a0b846dc55cdaf7fa8606ec0864bd8e);
+        
+
+        marker_cc0914e1e84ede614cc115b3753bfeae.bindPopup(popup_826f9500946828de8a357fbf81d43483)
+        ;
+
+        
+    
+    
+            marker_cc0914e1e84ede614cc115b3753bfeae.bindTooltip(
+                `<div>
+                     Immeuble Lavirotte (29 avenue Rapp)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da66c688d38955c8c64473d03f030cd1 = L.marker(
+                [48.8509, 2.2736],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_9e64f4c0ecd2701c0fd9ee921a4fa2ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_da66c688d38955c8c64473d03f030cd1.setIcon(icon_9e64f4c0ecd2701c0fd9ee921a4fa2ec);
+        
+    
+        var popup_2ae4919a327b5a845588ce274c67ebb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1331a4606ac0dd821b2b193ff1020757 = $(`<div id="html_1331a4606ac0dd821b2b193ff1020757" style="width: 100.0%; height: 100.0%;">Castel Béranger</div>`)[0];
+            popup_2ae4919a327b5a845588ce274c67ebb8.setContent(html_1331a4606ac0dd821b2b193ff1020757);
+        
+
+        marker_da66c688d38955c8c64473d03f030cd1.bindPopup(popup_2ae4919a327b5a845588ce274c67ebb8)
+        ;
+
+        
+    
+    
+            marker_da66c688d38955c8c64473d03f030cd1.bindTooltip(
+                `<div>
+                     Castel Béranger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a105a54b112bff1bedc6c913079b30d9 = L.marker(
+                [48.8498, 2.2749],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_0ab525ab2fd7cfe9b612830ff9b1a2a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a105a54b112bff1bedc6c913079b30d9.setIcon(icon_0ab525ab2fd7cfe9b612830ff9b1a2a1);
+        
+    
+        var popup_d1ae06ae3149630d9224bae8931867f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8267b7e6c31684ff8c6aa438bd41bf15 = $(`<div id="html_8267b7e6c31684ff8c6aa438bd41bf15" style="width: 100.0%; height: 100.0%;">Rue Agar et Café Antoine</div>`)[0];
+            popup_d1ae06ae3149630d9224bae8931867f7.setContent(html_8267b7e6c31684ff8c6aa438bd41bf15);
+        
+
+        marker_a105a54b112bff1bedc6c913079b30d9.bindPopup(popup_d1ae06ae3149630d9224bae8931867f7)
+        ;
+
+        
+    
+    
+            marker_a105a54b112bff1bedc6c913079b30d9.bindTooltip(
+                `<div>
+                     Rue Agar et Café Antoine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a81dbbebbf6e11f560f9a0b1a9afbde = L.marker(
+                [48.8503, 2.2731],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_863f7531c03fcc46f73797138b71ac0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6a81dbbebbf6e11f560f9a0b1a9afbde.setIcon(icon_863f7531c03fcc46f73797138b71ac0b);
+        
+    
+        var popup_ec955991fff8b475d9d9d928e8d5dd5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2e378deffed2f37f810ebfd1c9de32e = $(`<div id="html_c2e378deffed2f37f810ebfd1c9de32e" style="width: 100.0%; height: 100.0%;">Hôtel Mezzara</div>`)[0];
+            popup_ec955991fff8b475d9d9d928e8d5dd5e.setContent(html_c2e378deffed2f37f810ebfd1c9de32e);
+        
+
+        marker_6a81dbbebbf6e11f560f9a0b1a9afbde.bindPopup(popup_ec955991fff8b475d9d9d928e8d5dd5e)
+        ;
+
+        
+    
+    
+            marker_6a81dbbebbf6e11f560f9a0b1a9afbde.bindTooltip(
+                `<div>
+                     Hôtel Mezzara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdd65a0813e8ae00f367e00a35b604a4 = L.marker(
+                [48.8402, 2.3295],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_50121d7f7357834e3c1487f434c2858d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bdd65a0813e8ae00f367e00a35b604a4.setIcon(icon_50121d7f7357834e3c1487f434c2858d);
+        
+    
+        var popup_07660880515ce6857dd16515b2d24d30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c5fecda90be2b7466342e7afda51400 = $(`<div id="html_5c5fecda90be2b7466342e7afda51400" style="width: 100.0%; height: 100.0%;">Immeuble du 31-31bis rue Campagne-Première</div>`)[0];
+            popup_07660880515ce6857dd16515b2d24d30.setContent(html_5c5fecda90be2b7466342e7afda51400);
+        
+
+        marker_bdd65a0813e8ae00f367e00a35b604a4.bindPopup(popup_07660880515ce6857dd16515b2d24d30)
+        ;
+
+        
+    
+    
+            marker_bdd65a0813e8ae00f367e00a35b604a4.bindTooltip(
+                `<div>
+                     Immeuble du 31-31bis rue Campagne-Première
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf0ded46f8993f91cc76798ee3a239b2 = L.marker(
+                [48.8337, 2.3281],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_e3f45be7a3a4e01c227315ec18e0470b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bf0ded46f8993f91cc76798ee3a239b2.setIcon(icon_e3f45be7a3a4e01c227315ec18e0470b);
+        
+    
+        var popup_9c6cc5fba3ef9ac488e0648505f73f99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd24a4c016dafbb04ed676f767a71f1 = $(`<div id="html_3fd24a4c016dafbb04ed676f767a71f1" style="width: 100.0%; height: 100.0%;">Immeuble du 1 rue Boulard</div>`)[0];
+            popup_9c6cc5fba3ef9ac488e0648505f73f99.setContent(html_3fd24a4c016dafbb04ed676f767a71f1);
+        
+
+        marker_bf0ded46f8993f91cc76798ee3a239b2.bindPopup(popup_9c6cc5fba3ef9ac488e0648505f73f99)
+        ;
+
+        
+    
+    
+            marker_bf0ded46f8993f91cc76798ee3a239b2.bindTooltip(
+                `<div>
+                     Immeuble du 1 rue Boulard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a28af9df9ef73d43e60ae03e3bf076f6 = L.marker(
+                [48.8455, 2.2654],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_eec5fd5a07143d6c96ec1c3c0b3e646c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a28af9df9ef73d43e60ae03e3bf076f6.setIcon(icon_eec5fd5a07143d6c96ec1c3c0b3e646c);
+        
+    
+        var popup_a64f52b5f28e598a937051d01808f13d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60a98eaddaeb76e8158e3dbaf38fb584 = $(`<div id="html_60a98eaddaeb76e8158e3dbaf38fb584" style="width: 100.0%; height: 100.0%;">Ancienne École du Sacré-Cœur</div>`)[0];
+            popup_a64f52b5f28e598a937051d01808f13d.setContent(html_60a98eaddaeb76e8158e3dbaf38fb584);
+        
+
+        marker_a28af9df9ef73d43e60ae03e3bf076f6.bindPopup(popup_a64f52b5f28e598a937051d01808f13d)
+        ;
+
+        
+    
+    
+            marker_a28af9df9ef73d43e60ae03e3bf076f6.bindTooltip(
+                `<div>
+                     Ancienne École du Sacré-Cœur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53b959e14d285c1383a94b78c3b1bfd8 = L.marker(
+                [48.8674, 2.3485],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_c315d7e08cd7bb0896e5060bc63e65d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_53b959e14d285c1383a94b78c3b1bfd8.setIcon(icon_c315d7e08cd7bb0896e5060bc63e65d8);
+        
+    
+        var popup_6dc271db30f2ec67b8d25fab2964e9b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61c16e468198f95cec0f1a650c1c7667 = $(`<div id="html_61c16e468198f95cec0f1a650c1c7667" style="width: 100.0%; height: 100.0%;">Immeuble du 61 rue Réaumur</div>`)[0];
+            popup_6dc271db30f2ec67b8d25fab2964e9b1.setContent(html_61c16e468198f95cec0f1a650c1c7667);
+        
+
+        marker_53b959e14d285c1383a94b78c3b1bfd8.bindPopup(popup_6dc271db30f2ec67b8d25fab2964e9b1)
+        ;
+
+        
+    
+    
+            marker_53b959e14d285c1383a94b78c3b1bfd8.bindTooltip(
+                `<div>
+                     Immeuble du 61 rue Réaumur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32165223a36bca1a0725b3bbba338998 = L.marker(
+                [48.8682, 2.3408],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_c4bbcd8b14e9fb61568425ec658365d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32165223a36bca1a0725b3bbba338998.setIcon(icon_c4bbcd8b14e9fb61568425ec658365d9);
+        
+    
+        var popup_71b978d1928fde7fac6d9b9ecc320aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b490f2fa473dc2b015f0f3099fc358 = $(`<div id="html_22b490f2fa473dc2b015f0f3099fc358" style="width: 100.0%; height: 100.0%;">Brasserie Vaudeville</div>`)[0];
+            popup_71b978d1928fde7fac6d9b9ecc320aed.setContent(html_22b490f2fa473dc2b015f0f3099fc358);
+        
+
+        marker_32165223a36bca1a0725b3bbba338998.bindPopup(popup_71b978d1928fde7fac6d9b9ecc320aed)
+        ;
+
+        
+    
+    
+            marker_32165223a36bca1a0725b3bbba338998.bindTooltip(
+                `<div>
+                     Brasserie Vaudeville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6bd3a98d06d5ee5af6619c42ea1fe07 = L.marker(
+                [48.8711, 2.2931],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_09511ed0529f113d42235f9e66e14136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6bd3a98d06d5ee5af6619c42ea1fe07.setIcon(icon_09511ed0529f113d42235f9e66e14136);
+        
+    
+        var popup_b5d7c455c6105871482e50d68b46a74c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e07ee2fe1c464d32a305b7855486d6f0 = $(`<div id="html_e07ee2fe1c464d32a305b7855486d6f0" style="width: 100.0%; height: 100.0%;">Petit Rétro</div>`)[0];
+            popup_b5d7c455c6105871482e50d68b46a74c.setContent(html_e07ee2fe1c464d32a305b7855486d6f0);
+        
+
+        marker_b6bd3a98d06d5ee5af6619c42ea1fe07.bindPopup(popup_b5d7c455c6105871482e50d68b46a74c)
+        ;
+
+        
+    
+    
+            marker_b6bd3a98d06d5ee5af6619c42ea1fe07.bindTooltip(
+                `<div>
+                     Petit Rétro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c7aaac0b59fa77737e9f4c221aa7826 = L.marker(
+                [48.8509, 2.343],
+                {}
+            ).addTo(map_59b59f46a6d6f4430e4a821d9df39e12);
+        
+    
+            var icon_85af2d3d67c179afef5f629f76095da0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c7aaac0b59fa77737e9f4c221aa7826.setIcon(icon_85af2d3d67c179afef5f629f76095da0);
+        
+    
+        var popup_ea09b437344de1e93a06b6e969e77e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bb26147b7ce70d68ce5718067169cd2 = $(`<div id="html_4bb26147b7ce70d68ce5718067169cd2" style="width: 100.0%; height: 100.0%;">Bouillon Racine</div>`)[0];
+            popup_ea09b437344de1e93a06b6e969e77e9a.setContent(html_4bb26147b7ce70d68ce5718067169cd2);
+        
+
+        marker_4c7aaac0b59fa77737e9f4c221aa7826.bindPopup(popup_ea09b437344de1e93a06b6e969e77e9a)
+        ;
+
+        
+    
+    
+            marker_4c7aaac0b59fa77737e9f4c221aa7826.bindTooltip(
+                `<div>
+                     Bouillon Racine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
